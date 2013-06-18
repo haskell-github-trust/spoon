@@ -3,15 +3,15 @@
 -----------------------------------------------------------------------------
 -- |
 -- Module      :  Control.Spoon
--- Copyright   :  (c) Matt Morrow & Dan Peebles
+-- Copyright   :  © 2009 Matt Morrow & Dan Peebles, © 2013 Liyang HU
 -- License     :  see LICENSE
 -- 
--- Maintainer  :  pumpkingod@gmail.com
+-- Maintainer  :  spoon@liyang.hu
 -- Stability   :  experimental
 -- Portability :  non-portable (Scoped Type Variables)
 --
 -- Two functions for catching pureish exceptions in pure values. This library
--- considers pureish to be any error call or undefined, failed pattern matches, 
+-- considers pureish to be any error call or undefined, failed pattern matches,
 -- arithmetic exceptions, and array bounds exceptions.
 --
 -----------------------------------------------------------------------------
